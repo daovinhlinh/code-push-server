@@ -8,5 +8,6 @@ npm install # Required because npm ci will install only prod dependencies becaus
 npm run clean
 npm run build
 npm install -g azurite
+azurite --silent
 # rm -rf /home/site/wwwroot/*
 # cp -r /home/site/repository/api/* /home/site/wwwroot/
